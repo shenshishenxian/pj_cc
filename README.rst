@@ -6,6 +6,7 @@ Install
 -------
    
 Create a virtualenv and activate it::
+
     go into the repo first
     python3 -m venv venv
     . venv/bin/activate
