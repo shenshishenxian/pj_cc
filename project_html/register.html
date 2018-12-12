@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+</head>
+<body>
+	<div id="signup">   
+        <h1>Sign Up for Free</h1>
+        <form action="/" method="post">
+          
+        <div class="top-row">
+            <div class="field-wrap">
+            <label>Username<span class="req">*</span></label>
+            <input type="text" required autocomplete="off" />
+            </div>
+
+            <div class="field-wrap">
+            <label>Email Address<span class="req">*</span></label>
+            <input type="email" required autocomplete="off"/>
+            </div>
+          
+            <div class="field-wrap">
+            <label>Set A Password<span class="req">*</span></label>
+            <input type="password" required autocomplete="off"/>
+            </div>
+          
+            <button id="signup" type="submit" class="button button-block"/>Get Started</button>
+
+        </div>
+        </form>
+    </div>
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+	document.getElementById("signup").onclick=function(){
+		location.href='main.html';
+	};
+</script>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>report</title>
+</head>
+
+<body>
+	<h1>Report parking spots to earn credits!</h1>
+	<p>Get current location.</p>
+	<button id="userlo">user location</button><br>
+	<div>
+		<p>Latitude:</p><input type="text" name="Latitude">
+	    <p>Longtitude:</p><input type="text" name="Longtitude">
+		<p>Describe:</p><textarea cols="50" rows="10">Input your description here...</textarea><br>
+		<button id="pic">upload picture</button>
+		<button id="submit">submit</button>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+	document.getElementById("submit").onclick=function(){
+		location.href='reported.html';
+	};
+
+
+</script>
+</html>

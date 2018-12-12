@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>successfully found parking spots</title>
+</head>
+
+<body>
+	<h1>Successfully found!</h1>
+	<h3>P@rk has found n parking spots for you.<br>Cost 3 credits to see them?</h3>
+	<button id="see">I want to see.</button>
+	<button id="notsee">No, thanks.</button>
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+	document.getElementById("see").onclick=function(){
+		location.href='findres.html';
+	};
+
+	document.getElementById("notsee").onclick=function(){
+		location.href='main.html';
+	};
+</script>
+</html>
